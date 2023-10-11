@@ -4,14 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.nageoffer.oneframe</groupId>
-        <artifactId>oneframe-all</artifactId>
+        <artifactId>oneframe-frameworks</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>oneframe-frameworks</artifactId>
-    <packaging>pom</packaging>
-
-    <modules>
-        <module>base</module>
-        <module>convention</module>
-    </modules>
+    <artifactId>oneframe-convention</artifactId>
 </project>
