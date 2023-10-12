@@ -95,7 +95,7 @@
                     <java>
                         <eclipse>
                             <!-- ${maven.multiModuleProjectDirectory} 爆红属于正常，并不影响编译或者运行，忽略就好 -->
-                            <file>${maven.multiModuleProjectDirectory}/spotless/oneframe_spotless_formatter.xml</file>
+                            <file>${maven.multiModuleProjectDirectory}/spotless/eclipse_formatter.xml</file>
                         </eclipse>
                         <licenseHeader>
                             <!-- ${maven.multiModuleProjectDirectory} 爆红属于正常，并不影响编译或者运行，忽略就好 -->
@@ -119,11 +119,11 @@
                 <version>${maven-common-plugin.version}</version>
                 <configuration>
                     <!-- ${maven.multiModuleProjectDirectory} 爆红属于正常，并不影响编译或者运行，忽略就好 -->
-                    <configLocation>${maven.multiModuleProjectDirectory}/checkstyle/oneframe_checkstyle.xml
+                    <configLocation>${maven.multiModuleProjectDirectory}/checkstyle/checkstyle.xml
                     </configLocation>
                     <!-- ${maven.multiModuleProjectDirectory} 爆红属于正常，并不影响编译或者运行，忽略就好 -->
                     <suppressionsLocation>
-                        ${maven.multiModuleProjectDirectory}/checkstyle/oneframe_checkstyle_suppression.xml
+                        ${maven.multiModuleProjectDirectory}/checkstyle/checkstyle_suppression.xml
                     </suppressionsLocation>
                     <!-- Do not scan the test directory for now -->
                     <includeTestSourceDirectory>false</includeTestSourceDirectory>
