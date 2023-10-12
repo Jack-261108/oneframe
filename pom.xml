@@ -8,8 +8,16 @@
     <packaging>pom</packaging>
 
     <description>
-        🔥热门推荐🔥真实企业级基础架构组件库，类似脚手架项目，不过这个项目负责的是基础组件脚手架。
+        🔥热门推荐🔥真实企业级基础架构组件库，包含规约、缓存、幂等、日志、分布式、消息队列等组件包。
     </description>
+
+    <developers>
+        <developer>
+            <name>chen.ma</name>
+            <email>machen@apache.org</email>
+            <url>https://github.com/magestacks</url>
+        </developer>
+    </developers>
 
     <properties>
         <java.version>17</java.version>
@@ -23,6 +31,7 @@
     <modules>
         <module>dependencies</module>
         <module>frameworks</module>
+        <module>starters</module>
     </modules>
 
     <dependencies>
